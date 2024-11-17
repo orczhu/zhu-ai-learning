@@ -22,3 +22,18 @@ This data comes to us from the UCI Machine Learning repository and was collected
 20 - $50).
 ```
 [The detail anaylsis and hypotheses of module 1 are here](/module_1/README.md)
+
+## Module-2
+Path: /car_price_analysis
+Requirement:
+```
+What drives the price of a car?
+
+
+OVERVIEW
+
+In this application, you will explore a dataset from Kaggle. The original dataset contained information on 3 million used cars.
+The provided dataset contains information on 426K cars to ensure speed of processing.
+Your goal is to understand what factors make a car more or less expensive. As a result of your analysis, you should provide clear recommendations to your client -- a used car dealership -- as to what consumers value in a used car.
+```
+[The detail anaylsis of car price at](/car_price_analysis/README.md)
