@@ -37,3 +37,26 @@ The provided dataset contains information on 426K cars to ensure speed of proces
 Your goal is to understand what factors make a car more or less expensive. As a result of your analysis, you should provide clear recommendations to your client -- a used car dealership -- as to what consumers value in a used car.
 ```
 [The detail anaylsis of car price at](/car_price_analysis/README.md)
+
+## Capstone Project
+Path: /capstone
+Requirement:
+```
+Are You Likely to Have Diabetes?
+
+OVERVIEW
+
+This project analyzes the Pima Indians Diabetes Database and uses various machine learning models to predict whether a patient is likely to have diabetes. The dataset contains important health measurements, such as:
+
+Glucose
+BloodPressure
+SkinThickness
+Insulin
+BMI
+DiabetesPedigreeFunction
+Age
+The goal is to train and evaluate multiple classification models to determine the most effective machine learning algorithm for predicting diabetes.
+
+Dataset
+The dataset consists of health-related features collected from female patients of at least 21 years of age. The target variable indicates whether a patient has diabetes (1) or not (0).
+```
