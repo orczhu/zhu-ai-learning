@@ -37,3 +37,8 @@ The goal of this analysis is to predict whether a client will subscribe to a ter
     - High accuracy (88.22% on test data).
     - Fast training time compared to SVM.
     - Strong performance in cross-validation (88.58%).
+## Actionable Items
+- Focus on Targeted Marketing:
+  - Clients with "university degrees," "management" or "technician" jobs, and no existing loans are more likely to subscribe. Prioritize these groups in future campaigns.
+- Simplify Decision-Making:
+  - The Decision Tree model provides interpretable rules, making it easier to understand and implement for business stakeholders.
