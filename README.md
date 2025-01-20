@@ -38,6 +38,15 @@ Your goal is to understand what factors make a car more or less expensive. As a 
 ```
 [The detail anaylsis of car price at](/car_price_analysis/README.md)
 
+## Module-3
+Path: /compare_classifier
+Requirement:
+```
+OVERVIEW
+The goal of this analysis is to predict whether a client will subscribe to a term deposit (y = yes) based on client characteristics and campaign-related data. Apply different ML classification model. Accurately predicting subscriptions can help the bank optimize marketing campaigns, focus resources on likely subscribers, and improve overall campaign efficiency.
+```
+[The detail anaylsis of subscribing a term deposit at](/compare_classifier/README.md)
+
 ## Capstone Project
 Path: /capstone
 Requirement:
