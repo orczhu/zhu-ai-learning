@@ -50,3 +50,5 @@ The goal of this analysis is to predict whether a client will subscribe to a ter
   - Regularly retrain the model with fresh data to account for changing customer behavior.
   - Leverage Model Insights:
   - Use feature importance from models (e.g., Decision Trees) to refine client targeting strategies.
+## Notebook Path
+[prompt_III.ipynb](https://github.com/orczhu/zhu-ai-learning/blob/main/compare_classifier/prompt_III.ipynb)
