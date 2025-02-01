@@ -69,3 +69,4 @@ The goal is to train and evaluate multiple classification models to determine th
 Dataset
 The dataset consists of health-related features collected from female patients of at least 21 years of age. The target variable indicates whether a patient has diabetes (1) or not (0).
 ```
+## Thinking
