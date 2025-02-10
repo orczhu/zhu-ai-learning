@@ -17,7 +17,7 @@ It would be "Can machine learning classifiers accurately predict the likelihood 
 
 #### Data Sources
 What data will you use to answer you question?
-The dataset is located [current repo](/data/diabetes.csv). 
+The dataset is located [current repo](/capstone/data/diabetes.csv). 
 Originally I am downloading from Kaggle
 
 #### Methodology
