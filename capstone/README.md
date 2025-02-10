@@ -29,14 +29,16 @@ What methods are you using to answer the question?
 - Model Evaluation: Using performance metrics such as Mean Absolute Error (MAE), confusion matrix, and ROC-AUC to compare the effectiveness of each model.
 
 #### Results
-What did your research find?
-Comparing the single model with key input of Glucose, BloodPressure, SkinThickness, Insulin, BMI, DiabetesPedigreeFunction and Age, SVM perfomrs the best. And false negatives is import data we need to look at, since the patient need to be cautious of diabetes instead of ignoring it. Recall(sensitivity) is the priotrity to optimized. (TODO to apply Ensemble learning to optimize, I will do in later days) 
 
-#### Next steps
-What suggestions do you have for next steps?
-- Model Tuning: Further tuning of hyperparameters, such as the number of neighbors in KNN or the kernel type in SVM, could improve model accuracy.
-- Additional Features: Including more features such as genetic information or medical history might improve the predictions.
-- Deploying the Model: The best-performing model could be deployed in a real-world healthcare application to predict diabetes risk for new patients.
+What did your research find?
+Comparing the single model with key input of Glucose, BloodPressure, SkinThickness, Insulin, BMI, DiabetesPedigreeFunction and Age, SVM performs the best. And false negatives is import data we need to look at, since the patient need to be cautious of diabetes instead of ignoring it. 
+In addition, I employed ensemble learning methods, Random Forest and AdaBoost, to further optimize the model. After fine-tuning the parameters of both Random Forest and AdaBoost, it was found that Random Forest emerged as the best-performing model.
+
+#### Next steps (What suggestions do you have for next steps?)
+To improve the sensitivity of the Random Forest model and reduce false negatives, I focused on two key strategies:
+- Lowering the positive threshold: By adjusting the decision threshold for classifying diabetes, I made the model more likely to predict positive cases (diabetes), which helps in catching more true positives.
+- Increasing class weights: I adjusted the class weights to give more importance to correctly identifying positive cases (diabetes), thus improving the model's ability to correctly classify diabetes and reducing the number of false negatives.
+These adjustments helped improve the recall of the model, ensuring that more diabetes cases were correctly identified, even at the cost of slightly increasing false positives.
 
 #### Outline of project
 
