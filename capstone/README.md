@@ -32,7 +32,7 @@ What methods are you using to answer the question?
 
 What did your research find?
 Comparing the single model with key input of Glucose, BloodPressure, SkinThickness, Insulin, BMI, DiabetesPedigreeFunction and Age, SVM performs the best. And false negatives is import data we need to look at, since the patient need to be cautious of diabetes instead of ignoring it. 
-In addition, I employed ensemble learning methods, Random Forest and AdaBoost, to further optimize the model. After fine-tuning the parameters of both Random Forest and AdaBoost, it was found that Random Forest emerged as the best-performing model. And we ranking the importance facotor causing diabetes, which is glucose > insulin > age > BMI!
+In addition, I employed ensemble learning methods, Random Forest, AdaBoost, Xgboost and ANN to further optimize the model. After fine-tuning the parameters of both Random Forest, AdaBoost Xgboost and simple 3 layer Nueral Network, it was found that Xgboost emerged as the best-performing model, since I really care about is the sensitivity of the model(true positive rate) And we ranking the importance facotor causing diabetes, which is glucose > insulin > age > BMI!
 
 #### Next steps (What suggestions do you have for next steps?)
 To improve the sensitivity of the Random Forest model and reduce false negatives, I focused on two key strategies:
